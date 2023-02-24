@@ -1,3 +1,6 @@
+body{    
+}
+
 a {
     text-decoration: double;
 }
@@ -16,6 +19,20 @@ div {
 
 #titulo-unico{
     color: brown;
+}
+
+.paragrafo > b {
+    background-color: blueviolet;
+}
+
+.paragrafo, .titulo {
+    background-color: darkorchid;
+}
+
+@midia (min-width: 800px) {
+.titulo {
+    display: nome;
+ }
 }
 
 .paragrafo > b {
